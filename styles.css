@@ -1,4 +1,4 @@
-body {
+ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -17,49 +17,22 @@ nav {
     color: #fff;
     padding: 0.5em;
     text-align: center;
-    overflow: hidden;
-    white-space: nowrap;
-    position: relative;
 }
 
 nav ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
     list-style: none;
-    overflow-x: auto;
-    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li {
-    flex: 0 0 auto;
-    display: inline-block;
+    display: inline;
     margin: 0 1em;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
-}
-
-nav .scroll-buttons {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    border: none;
-    color: white;
-    cursor: pointer;
-    padding: 10px;
-    z-index: 1;
-}
-
-nav .scroll-left {
-    left: 0;
-}
-
-nav .scroll-right {
-    right: 0;
 }
 
 section {
@@ -102,4 +75,4 @@ footer {
     footer {
         padding: 0.5em 0;
     }
-}
+}  
